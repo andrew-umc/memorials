@@ -501,13 +501,13 @@ AddListBreakToSlideVector (index, "R");
 
 index++;
 slideVector[index] = new AddPDFDoc (index, "0Remley.pdf");
-slideVector[index].date_time = "2018";
-slideVector[index].listTitle = "Loretta Robertson";
+slideVector[index].date_time = "1991";
+slideVector[index].listTitle = "Don Remley";
 
 index++;
 slideVector[index] = new AddPDFDoc (index, "oRobertson_L_page_or_book.pdf");
-slideVector[index].date_time = "1991";
-slideVector[index].listTitle = "Don Remley";
+slideVector[index].date_time = "2018";
+slideVector[index].listTitle = "Loretta Robertson";
 
 index++;
 slideVector[index] = new AddPDFDoc (index, "0RobinsonNat_page_for_book.pdf");
