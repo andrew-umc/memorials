@@ -19,11 +19,11 @@
 	
 	gRandomSelectedSlide = GetRandomMemorialFile ();
 	
-	if (gIs_Firefox)
+	//if (gIs_Firefox)
 				// Firefox does not handle random memorial files well. The problem seems to be that FinishPDFLoad does
 				// not get call after the first slide is 'ItemClicked' after the initial load of the blank.pdf or
 				// any other file in place of blank.pdf.
-		gRandomSelectedSlide = FirstSlide;
+		//gRandomSelectedSlide = FirstSlide;
 	//console.log ("gRandomSelectedSlide: " + gRandomSelectedSlide + "  " + FirstSlide);
 
 	SetMemorialFileVariables (gRandomSelectedSlide);
